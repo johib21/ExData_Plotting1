@@ -1,3 +1,4 @@
+library(dplyr)
 if(!file.exists("household_power_consumption.txt")){
         temp<-tempfile()
         download.file("https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip",temp)
